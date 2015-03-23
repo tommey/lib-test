@@ -1,0 +1,12 @@
+{
+	"name":"tommey\lib-test",
+	"autoload":{
+		"psr-4": {
+			"Tommey\\LibTest\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"phpunit/phpunit": "4.5.0"
+	}
+}
