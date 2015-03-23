@@ -1,10 +1,15 @@
 {
-	"name":"tommey\lib-test",
+	"name":"tommey/lib-test",
 	"autoload":{
 		"psr-4": {
 			"Tommey\\LibTest\\": "src/"
 		}
 	},
+	"repositories": [
+	  	{"type": "composer", "url": "http://satis-private.ewyxk4.hu"},
+		{"type": "composer", "url": "http://satis-public.ewyxk4.hu"},
+		{"packagist": false}
+  	],
 	"require": {
 		"php": ">=5.4.0",
 		"phpunit/phpunit": "4.5.0"
